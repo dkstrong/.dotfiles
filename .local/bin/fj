@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+
+selected=`cat ~/.local/share/dotfiles/jumplist.txt | fzf`
+if [[ -n $selected ]]; then
+	echo "Running: $selected"
+ 	bash -c "$selected"
+fi
+
