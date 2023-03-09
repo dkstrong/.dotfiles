@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-#echo "Editor:$EDITOR"
-#bash -c '${EDITOR:-vim} ~/.local/share/dotfiles/jumplist.txt'
-
-nvim ~/.local/share/dotfiles/jumplist.txt
